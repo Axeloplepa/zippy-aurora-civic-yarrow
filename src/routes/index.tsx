@@ -184,17 +184,25 @@ function NavBtn({
   );
 }
 
+const RESEARCHERS = [
+  "Amongo, Jessa Mae D.",
+  "Apelo, Pauline R.",
+  "Caldeo, Axle Russ F.",
+  "Clavaton, Ricky John A.",
+  "Dalumpines, Mary Ellaine Joy C.",
+  "Navarro, Lea May D.",
+];
+
 function Researchers() {
   return (
     <section className="mx-auto max-w-4xl">
       <h1 className="text-2xl font-extrabold tracking-tight">Researchers</h1>
       <p className="mt-1 text-sm text-muted">Group 5 — Roxas City School for Philippine Craftsmen</p>
-      <img src="/researchers.jpg" alt="The researchers" className="mt-5 w-full rounded-card border border-line" />
+      <img src="/researchers.jpg" alt="Group 5 researchers" className="mt-5 w-full rounded-card border border-line" />
       <ul className="mt-5 grid gap-2 sm:grid-cols-2">
-        {CFG.users.map((u) => (
-          <li key={u.user} className="rounded-card border border-line bg-surface px-4 py-3">
-            <p className="font-bold">{u.name}</p>
-            <p className="text-sm text-faint">{u.user}</p>
+        {RESEARCHERS.map((name) => (
+          <li key={name} className="rounded-card border border-line bg-surface px-4 py-3 font-bold">
+            {name}
           </li>
         ))}
       </ul>
