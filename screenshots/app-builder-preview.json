@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Aqua-Grow",
+      "hasCanvas": false,
+      "bodyTextLen": 26,
+      "bodyTextHash": "ab80b6f62e5f3711a2ce323c27ccbbe3f9f8dec6021e60e62987713f53936778",
+      "bodyTextPrefix": "IRRIGATION AND FERTIGATION",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Aqua-Grow",
+      "hasCanvas": false,
+      "bodyTextLen": 26,
+      "bodyTextHash": "ab80b6f62e5f3711a2ce323c27ccbbe3f9f8dec6021e60e62987713f53936778",
+      "bodyTextPrefix": "IRRIGATION AND FERTIGATION",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}
